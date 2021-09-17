@@ -12,13 +12,13 @@ namespace AreaTrianguloRet
 
             Console.Write("Digite a base do triangulo: ");
             string baseValor = Console.ReadLine();
-            double baseNumero = Int32.Parse(baseValor);
+            double baseNumero = Double.Parse(baseValor);
 
             Console.WriteLine();
 
             Console.Write("Digite a altura do triangulo: ");
             string alturaValor = Console.ReadLine();
-            double alturaNumero = Int32.Parse(alturaValor);
+            double alturaNumero = Double.Parse(alturaValor);
 
             double areaTriagulo = (baseNumero*alturaNumero)/2;
 
